@@ -1,24 +1,12 @@
-- name: Pricing
-  link: /pricing/
+- name: Events
+  link: /events/
   new_window: false
   highlight: false
-- name: Blog
-  link: /blog/
+- name: Tutoring
+  link: /tutoring/
   new_window: false
   highlight: false
-- name: About
-  link: /about/
+- name: Business
+  link: /business/
   new_window: false
   highlight: false
-- name: Contact
-  link: /contact/
-  new_window: false
-  highlight: false
-- name: Login
-  link: /
-  new_window: true
-  highlight: false
-- name: Sign Up
-  link: /
-  new_window: true
-  highlight: true
