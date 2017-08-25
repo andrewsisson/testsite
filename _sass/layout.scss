@@ -18,8 +18,8 @@
 }
 
 header {
-background: linear-gradient(270deg, #24b26d, #257c2f, #37ae8f);
-background-size: 600% 600%;
+background: linear-gradient(270deg, #2eb2ff, #00a359);
+background-size: 400% 400%;
 
 -webkit-animation: GRADIENT 30s ease infinite;
 -moz-animation: GRADIENT 30s ease infinite;
@@ -184,8 +184,28 @@ blockquote:before {
 		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
 
 		&:hover {
-			background-color: #f4d525;
-			color: #333;
+		background: linear-gradient(270deg, #2eb2ff, #00a359);
+background-size: 400% 400%;
+
+-webkit-animation: GRADIENT 30s ease infinite;
+-moz-animation: GRADIENT 30s ease infinite;
+animation: GRADIENT 30s ease infinite;
+
+@-webkit-keyframes GRADIENT {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GRADIENT {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GRADIENT { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 		}
 	}
 
