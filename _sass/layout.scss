@@ -181,7 +181,8 @@ blockquote:before {
 		background-color: #f7e064;
 		color: #333;
 		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
-
+    }
+}
 		&:hover {
 		background: linear-gradient(270deg, #2eb2ff, #00a359);
 background-size: 400% 400%;
@@ -206,6 +207,5 @@ animation: GRADIENT 30s ease infinite;
     100%{background-position:0% 50%}
 }
 		}
-	}
+	
 
-}
