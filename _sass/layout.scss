@@ -20,8 +20,28 @@
 header {
 	color: #fff;
 	padding: 20px 0;
-	background: $brand-color; /* Old browsers */
-	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) no-repeat $brand-color;
+background: linear-gradient(270deg, #24b26d, #257c2f, #37ae8f);
+background-size: 600% 600%;
+
+-webkit-animation: GRADIENT 30s ease infinite;
+-moz-animation: GRADIENT 30s ease infinite;
+animation: GRADIENT 30s ease infinite;
+
+@-webkit-keyframes GRADIENT {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GRADIENT {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GRADIENT { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
 	a {
 		color: #fff;
