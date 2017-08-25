@@ -1,12 +1,12 @@
 - name: Events
   link: /events/
   new_window: false
-  highlight: false
+  highlight: true
 - name: Tutoring
   link: /tutoring/
   new_window: false
-  highlight: false
+  highlight: true
 - name: Business
   link: /business/
   new_window: false
-  highlight: false
+  highlight: true
